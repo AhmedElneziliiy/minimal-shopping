@@ -21,6 +21,9 @@ const ProductCard = ({title,price,description,images}) => {
         <div className="title">{title}</div>
         <div className="price">{price}$</div>
       </div>
+      <div className="desc">
+        {description}
+      </div>
     </div>
   );
 }
